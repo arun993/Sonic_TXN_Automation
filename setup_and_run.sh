@@ -59,7 +59,7 @@ async function main() {
             solanaWeb3.SystemProgram.transfer({
                 fromPubkey: keypair.publicKey,
                 toPubkey: new solanaWeb3.PublicKey(recipientAddress),
-                lamports: 10000 // 0.0001 SOL (1 SOL = 10^9 lamports)
+                lamports: 10000 //  SOL (1 SOL = 10^9 lamports)
             })
         );
 
